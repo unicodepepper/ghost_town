@@ -43,7 +43,29 @@ label hideitall: #because the scene statement sucks #actually I'm not sure if it
     return
 
 
+# this is just a general note on the script but... throughout the whole
+# story, i feel like it should be hinted that the man wants to take her
+# to his home, and, you know, take care of her as a parent would.
+
+# it only becomes clear that he's looking to take her to the other side
+# (and that he's dead, lol) near the end
+
+# he is, of course, trying to take revenge onto her father, the evil
+# mine owner who care about profits more than about lives. But in the
+# good ending, where she actually wanted to help the ghosts of the hurt
+# townspeople, he's conflicted about it - should i hurt this kind soul
+# just for my revenge?
+
+# he decides on a middle ground, and gives her a happy and comfortable
+# death
+
+# of course, on the bad ending, he has no mercy for her and leads her on
+# to believe she'll be saved, only to let her die in the cruelest way he
+# can think - starved, cold, and alone
+
+
 label start:
+    play music "music/bruh_moment.cropped.mp3"
     scene bg black
     scene bg snow
     show girl 2
@@ -75,7 +97,9 @@ label start:
     show nvlbg at nvlbgshow
     nvl clear
     g "I knew you wouldn't leave me! I knew, I knew, I knew... I'm so glad. You don't even know."
-    m "I told you I would be with you until you pass away. And I'm not a person to break promises, I assure you, sunny."
+    #until you pass away... isn't this too on the nose?? ideally the
+    #fact that he wants her dead should be a surprise till the end :>
+    m "I told you I would be with you until you pass away. And I'm not a person to break promises, I assure you, sunny." 
     m "I brought you the usual necessities; food, twigs for a fire too. And... a special thing!"
     g "You... You really didn't have to!... I'm not worth the bother, you know..."
     show guy 2 with dissolve
@@ -106,6 +130,10 @@ label start:
     g "I'm the daughter of the richest man on the city that's past that trail."
     g "The factories around the city are the main source of income for my father."
     g "He never told me much about them, but I think these were coal and lead mines. These need big chimneys, you know?"
+    # this part mentions that he was a safety inspector, but i feel like
+    # it should be clear at some point that the dad... killed him?
+    # intentionally. for trying to fight for better conditions for the
+    # workers
     m "I'm a safety inspector for the council, so my job is to make sure these rules are followed properly, for the well-being of the population."
     m "That is correct, lead mines are quite harmful. They need good ventilation so as to avoid poisoning people with the fumes."
     g "Ah, the fumes-"
@@ -225,6 +253,37 @@ label start:
     "You're the only one who can carry our will forward."
     "Will you help us save this town from the evil that governs it?"
     "Will you help us finally rest in peace?"
+    # also probably make this more... of a difficult decision
+    # right now it's just "will you help lol"
+    # should be more of a 
+    # "you will have to do something unspeakable,
+    # but it's the only way to bring justice to us"
+
+    # another thing we discussed - instead of just "lol put this bomb on
+    # his car" she's... radicalized by the ghosts, and builds a bomb
+    # fully knowing what's going to happen. 
+
+    # i think this makes the choice more difficult - will you build a
+    # bomb to kill your own father to help these people he's wronged?
+
+    # of course, later on she realizes how horrible that was, and
+    # escapes out of guilt.
+
+
+    # another idea for the bomb setup scene:
+
+    # just random snippets of text talking about what she's building, like:
+
+    # "...Trinitrotoluene, used commonly for hydraulic fracturing..."
+    # "...spare key to the tool storage..."
+    # "...ignition cable under the dashboard..."
+
+    # g "This is for them... This is for the best. It'll make everything good again... No more dying people... No more suffering... The pain... It'll all be pure again."
+
+
+    # and then she snaps back to reality when she hears the news of the assassination attempt 
+
+
     menu:
         "Yes.":
             $helped=1
@@ -267,6 +326,23 @@ label start:
             g "I can't stay here any longer..."
             #change of scenes to the snow
         "No.":
+            # I think if you pick No, the man should appear shaken after the story ends.
+            # Something like "but why didn't you help them? didn't you care about their suffering?"
+            # "yeah but.. they were asking too much of me"
+            # 
+            # "do you think I did wrong?"
+            # "it doesn't matter. let's just forget about it and worry about you."
+            # OH BUT IT REALLY DOES MATTER :]
+
+            # another thing - if she chooses not to help, i think it
+            # should be clear that she has to flee anyways because the
+            # ghosts keep harassing her.
+
+            # "their weeps only got louder and louder... I couldn't
+            # escape them - even in my dreams"
+            # or something like that 
+
+
             $helped=0
             g "I don't want to."
             g "I won't do this to my father."
@@ -366,6 +442,14 @@ label goodEnding:
     m "Let's go home."
 
     #here goes the Emotional Slideshow(TM)
+
+    # description of the emotional slideshow:
+    # - she is walking by his hand through a hill, towards the sun, like a happy ending
+    # (moved the rest to the credits)
+
+    # another thing i feel should happen in the good ending is some
+    # mention of the workers' loved ones getting pensions... cause what
+    # was the purpose of the terrorist attack if not? silver lining :)
     jump credits
     return
 
@@ -373,6 +457,20 @@ label goodEnding:
 label badEnding:
     #she wakes up in the snow
     #the breeze is even stronger
+
+    # In the bad ending, he is revengeful - he wants her to suffer
+    # because of not helping the ghosts, and he also wants her dad to
+    # suffer for... obvious reasons. So as discussed, he disappears in
+    # front of her (with a "you deserve this, now you will know what
+    # it's like to be helpless and alone" while she begs him to save
+    # her)
+
+    #m "When it's all over... You will see for yourself how the eternal restlessness feels like."
+
+    # I honestly think this whole part needs to be rewritten like it says
+    # above. It also should hit her that now that she realizes the food
+    # and coat never existed, the cold and hunger hits her at once. 
+
     g "Where is him?"
     g "He said he'd come back, right?"
     g "He said he would come for me..."
@@ -387,6 +485,12 @@ label badEnding:
 
 label credits:
     nvl clear
+    # emotional slideshow (continued)
+    # - there's a couple timelapsed shots of the town slowly crumbling - the factory chimneys crashing down, things going to dust
+    # - maybe a couple newspaper shots talking about the town's demise, and the fight for the worker's rights
+    # - at the end of the credits, there is a grassy spring hill - where the camera pans down and shows a half-buried skull with some flowers growing in and around it 
+
+
     scene bg white with dissolve
     "these are the credits"
     $renpy.pause(1.0,hard=True)
