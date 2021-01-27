@@ -1,4 +1,3 @@
-# ;w;
 define g = Character("", kind=nvl, what_outlines=[(1,"#d47e00",0,0)]) #girl
 define m = Character("", kind=nvl, what_outlines=[(1,"#0a1932",0,0)]) #guy
 define narrator = Character(kind=nvl)
