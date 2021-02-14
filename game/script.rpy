@@ -72,7 +72,7 @@ label start:
     with dissolve
     show nvlbg at nvlbgshow
     g "It's... It's been a long time."
-    g "He hasn't been around since yesterday... I'm... A bit worried."
+    g "He hasn't been around since yesterday... I'm starting to feel a bit worried..."
     g "He always comes. He said he would. He would take care. Of me."
     g "I don't know his name, but how does it matter? He's the only one who... Who wouldn't turn away from me."
     show girl 1 with dissolve
@@ -96,26 +96,26 @@ label start:
             linear 0.5 alpha 1.0
     show nvlbg at nvlbgshow
     nvl clear
-    g "I knew you wouldn't leave me! I knew, I knew, I knew... I'm so glad. You don't even know."
+    g "I knew you wouldn't leave me! I knew, I knew, I knew... I'm so glad you're here. You don't even know."
     #until you pass away... isn't this too on the nose?? ideally the
     #fact that he wants her dead should be a surprise till the end :>
-    m "Would be very heartless of me to leave someone to die out in the cold."
-    m "You already have my word that I would protect you until the end - and I'm not a person to break promises, I assure you, sunny." 
-    m "I brought you the usual necessities; food, twigs for a fire too. And... a special thing!"
+    m "I told you I would be with you until you pass away. And I am not a person to break promises, I assure you, sunny."
+    m "I brought you the usual necessities; food, twigs for a fire, too."
+    m "And... a surprise!"
     g "You... You really didn't have to!... I'm not worth the bother, you know..."
     show guy 2 with dissolve
-    m "I hope it'll fit you just fine. I think... it's something of your liking, too."
-    g "I can't believe this, I. T-thank you. Thank you so much!"
+    m "I hope it will fit you just fine. I believe... It might be something of your liking, too."
+    g "I can't believe this, t-thank you... Thank you so much!"
     show girl 4 with dissolve
-    g "I love it."
+    g "I love it..."
     show bg snow closeup dark
     with dissolve
-    g "I know it's rude of me to ask, since you help me out so much, but... {w}Can you tell me... {w}How long, uhhh... {w}Until you take me home?"
+    g "I know it's rude of me to ask, since you help me out so much, but... {w}Can you tell me... {w}How long, until... {w}Until the day?"
     m "My sweet child, soon enough you will know. Fret not, I have not forgotten. All my preparations are heading to the end."
-    m "There's one thing itching my mind, sunny... You've never truly told me how it all happened."
+    m "There is but one thing itching my mind though, sunny... You have never truly told me how it all happened."
     m "Or maybe you did - you know how an old man's memory can rot away..."
-    g "It's hard for me to speak about it, but... for you, I will... I will try to remember."
-    m "Don't push yourself too far, child. Take it slow, alright?"
+    g "It's hard for me to speak about it, but... For you, I will... I will try."
+    m "Do not push yourself too far, my child. Take it slow, alright?"
     show bg black as black:
         alpha 0.0
         linear 0.5 alpha 1.0
@@ -129,32 +129,32 @@ label start:
     with Dissolve(2.0)
     nvl clear
     g "I'm the daughter of the richest man on the town that's past that trail."
-    g "The factories around the town are the main source of income for my father."
-    g "He never told me much about them, but I think these were coal and lead mines. These need big chimneys, you know?"
+    g "The factories around the city are the main source of income for my father. {w} He's the most influential person around here, I believe..."
+    g "He never told me much about the factories, but I think these are coal and lead mines. They need big chimneys, you know?"
     m "I may not have grown up here, but I'm quite familiar with those."
-    m "I'm a safety inspector for the council, so my job is to make sure these rules are followed properly, for the well-being of the population."
     m "That is correct, lead mines are quite harmful. They need good ventilation so as to avoid poisoning people with the fumes."
-    g "Ah, the fumes-"
-    m "I apologize for my interruption, so please continue your story."
+    m "I was a safety inspector for the council, so my job was to make sure these rules are followed properly, for the well-being of the population."
+    g "Ah, the fumes... God..."
+    m "I apologize for my interruption. Please, do continue with your story."
     #show girl 4 but more scared
     g "That must be why..."..
-    g "You see, this town has been getting worse and worse after the factories started running."
+    g "You see, this town has been getting worse and worse after the factories had started running."
     show bg field with dissolve
-    g "The people started getting sick and dying, especially the workers."
-    g "These fumes... {w}they came from the chimneys, and you could tell that whoever went down the mine would get sicker day by day."
+    g "The people started falling sick and dying, especially the workers."
+    g "These fumes... {w}They came from the chimneys, and you could tell that if someone went down the mine, they would get sicker, day by day."
     g "They told me about what was happening... They... They tried to warn me..."
     #her eyes get watery
     show bg mines2 with dissolve
     m "Who tried to warn you? The workers that came back from the mines?"
-    g "No... it was the ones who didn't make it out."
+    g "No... It was the ones that didn't make it out alive."
     g "I saw them every day."
-    g "At home, or outside, they were always there."
-    g "I'm sure they were looking for me, because I was the only one who could see them."
+    g "At home or outdoors, they were always there."
+    g "I'm sure they were looking for me, because it seems like I was the only one who could see them."
     #show capitalist dad oink oink
     show bg factory view1 with dissolve
     g "But my dad never listened."
     g "I told him about all the people who were suffering and dying because of him, but it was pointless."
-    g "He didn't care at all... I...  I couldn't take it..."
+    g "He didn't care at all. But I...  I couldn't take it..."
     #girl cries and falls down
     scene bg black with Dissolve(2.0)
     nvl clear
@@ -163,8 +163,8 @@ label start:
     show guy 3
     with dissolve
     show nvlbg at nvlbgshow
-    m "He really does seem like a wrongful person, I'm sorry sunny."
-    m "Maybe you should rest a bit? You look tired.{w} I promise I'll come again, alright?"
+    m "He really does seem like a wrongful person, I am sorry, sunny."
+    m "Maybe you should rest a bit? You look tired.{w} I promise I will come again."
     #they get comfier
     m "The fire will soon be gone too so please, darling."
     g "...Thank you so much for taking care of me."
@@ -183,8 +183,8 @@ label start:
     show nvlbg at nvlbgshow
     nvl clear
     g "He's gone again..."
-    g "It's a little warmer than yesterday, but it's still very cold."
-    g "I really hope he'll be back soon today..."
+    g "It's a little warmer than yesterday, at least, but it's still very cold."
+    g "I really hope he'll be back sooner today..."
     scene bg black with dissolve
     pause 1.0
     scene bg snow closeup
@@ -197,42 +197,42 @@ label start:
     nvl clear
     #guy wakes her up kneeling
     m "How did you sleep, my dear?"
-    g "Not so well... {w}It's really cold..."
-    g "And there's a storm coming up."
-    g "I don't wanna be here when the storm arrives."
+    g "Not too well... {w}It was really cold..."
+    g "And there seems to be a storm coming up."
+    g "I don't wanna be here when it arrives..."
     g "It's dangerous."
     g "Please."
     g "You have to take me home with you."
     #maybe the guy changes expressions?
-    m "I'm almost ready, my dear."
+    m "I am almost ready, my dear."
     m "I promise the wait will be fruitful."
-    m "Soon we won't have to worry about any of this."
-    m "I'll take good care of you once you're with me."
-    m "For now, all I can do is keep you company."
+    m "Soon we will not have to worry about any of this."
+    m "I will take good care of you once you are with me."
+    m "For now, the most I can do is keep you company."
     g "Thank you so much."
     g "I think I'd be dead by now if it wasn't for you."
     m "Don't worry about it, precious."
-    m "Please eat what from what I've brought and gain strength."
-    m "It's not much, but it should get you through today."
-    m "I promise we'll leave by tomorrow's night."
+    m "Please, try to eat at least a little. You need strength."
+    m "It is not much, but it should get you through today."
+    m "I promise we will leave by tomorrow's night."
     g "It feels like such a long time..."
     #she lies down again
     g "I just hope the ghosts will stop bothering me once I'm there."
     #he seems surprised
-    m "Ghosts?"
+    m "... Ghosts?"
     m "What ghosts?"
-    g "I thought... {w}I had told you about it yesterday..."
-    g "Didn't I?"
-    m "You shouldn't tell me if it awakens bad feelings in your heart, young lady."
+    g "I thought... {w}I had told you about them yesterday..."
+    g "Didn't I? I'm sure I did... I..."
+    m "You should not tell me if it awakens bad feelings in your heart, young lady."
     g "No! You don't understand."
     g "I want you to know."
-    g "You need to protect me."
+    g "You need to protect me. I need you to understand what's going on."
     m "..."
     m "I see."
     m "In that case, please tell me."
-    m "Who are these ghosts?{w} Why were they bothering you?"
-    g "They... {w}They were the victims of my father."
-    g "I don't know if they were looking for revenge,{w} or for justice, but..." #maybe make dramatic scene change during this sentence
+    m "Who are these ghosts?{w} Why are they bothering you?"
+    g "They... {w}They are the victims of my father."
+    g "I don't know if they are looking for revenge{w} or for justice, but..." #maybe make dramatic scene change during this sentence
     nvl clear
     scene bg black with dissolve
     g "But..."
@@ -249,13 +249,25 @@ label start:
 
     "We need your help."
     "Please, we beg you."
-    "I beg you." #repeat this a bunch of times from different people for psychological effect
+    "I'm begging you." #repeat this a bunch of times from different people for psychological effect
     g "What do you want?"
     g "Why does it have to be me?"
     "You're blessed with a very unique ability, young lady."
     "You're the only one who can carry our will forward."
     "Will you help us save this town from the evil that governs it?"
     "Will you help us finally rest in peace?"
+    "It won't be easy. It never is. But we know. We know what to do."
+    "We just need you to help us. We will guide you."
+    "It's all in your hands..."
+    "Just say a word and we will be ready. We will."
+    "You can make it all better again. You can fix this place."
+    "You can save {i}the rest of us{/i}."
+    "There isn't much time left..."
+    "But we know you're the great one. You possess what we need."
+    "What we don't have."
+    "We are mere ghosts... That's why we're begging for your aid. Please."
+    "Please."
+    "Please."
     # also probably make this more... of a difficult decision
     # right now it's just "will you help lol"
     # should be more of a 
@@ -352,12 +364,19 @@ label start:
             g "You won't get anywhere by talking to me."
             "We won't be able to rest until justice has been served, young lady."
             g "Can't you find someone else?"
-            "We are tied to this house."
+            "We are tied to this place."
             "And you're the only one in here who can hear us."
             g "If you can't leave, then I'll do."
             g "I don't want to see any of you ever again in my life."
             "The winter is coming near. You will not survive."
-            g "I will find shelter somewhere away from you."
+            "You're cruel... Not any less than your father."
+            "We had hope. We put our hope in you. Our faith."
+            "There's no hope in this world."
+            "You don't deserve hope either."
+            g "Leave me alone! Leave!"
+            g "God..."
+            g "I hope if I run far enough, I will lose them finally..."
+            g "I don't know how to cope with this anymore. I don't."
             #change of scenes to the snow
             pass
     nvl clear
@@ -425,21 +444,21 @@ label start:
 
 label goodEnding:
     #guy comes closer and holds her hand
-    m "I came here for you, young lady."
-    m "I said I wouldn't abandon you."
+    m "I have returned, young lady."
+    m "I said I would not abandon you."
     #her eyes light up, her fingers are purple already
     g "I'm cold..."
     g "I'm so cold..."
     g "Please bring me with you..."
     m "Soon enough, my dear."
-    m "Please relax."
+    m "This will not take too long. You have waited enough. We are close."
     #he takes her blanket out (?)
-    g "I-I'm... going to freeze..."
-    m "We'll be together soon, my dear."
+    g "I-I'm... G-going to freeze..."
+    m "We shall be together soon, my dear."
     #change of music and tone of the scene (it gets dark at first then it becomes light, almost ethereal)
     nvl clear
-    g "...what happened?"
-    g "I'm not... I don't feel cold anymore."
+    g "... What happened?"
+    g "I'm not... I don't feel cold anymore..."
     m "I know, my dear."
     m "Let's go home."
 
@@ -473,7 +492,8 @@ label badEnding:
     # above. It also should hit her that now that she realizes the food
     # and coat never existed, the cold and hunger hits her at once. 
 
-    g "Where is him?"
+    g "My God... It's freezing... It's a-awful..."
+    g "Where is he?"
     g "He said he'd come back, right?"
     g "He said he would come for me..."
     g "Where is... {w}Where is the bonfire? {w}Where is the coat he brought for me?"
