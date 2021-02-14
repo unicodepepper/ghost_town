@@ -67,8 +67,9 @@ label hideitall: #because the scene statement sucks #actually I'm not sure if it
 label start:
     play music "music/bruh_moment.cropped.mp3"
     scene bg black
-    scene bg snow
-    show girl 2
+    scene bg snow closeup
+    show girl 2:
+        xzoom -1.0
     with dissolve
     show nvlbg at nvlbgshow
     g "It's... It's been a long time."
@@ -84,7 +85,8 @@ label start:
     with dissolve
     pause 1.0
     scene bg snow closeup
-    show girl 3
+    show girl 3:
+        xzoom 1.0
     with dissolve
     show guy 1:
         alpha 0.0
@@ -137,7 +139,7 @@ label start:
     g "Ah, the fumes... God..."
     m "I apologize for my interruption. Please, do continue with your story."
     #show girl 4 but more scared
-    g "That must be why..."..
+    g "That must be why..."
     g "You see, this town has been getting worse and worse after the factories had started running."
     show bg field with dissolve
     g "The people started falling sick and dying, especially the workers."
@@ -159,7 +161,7 @@ label start:
     scene bg black with Dissolve(2.0)
     nvl clear
     show bg snow closeup dark
-    show girl 5
+    show girl 4
     show guy 3
     with dissolve
     show nvlbg at nvlbgshow
@@ -247,6 +249,9 @@ label start:
     # but he does have some very distinctive cracked glasses because of the murder attempt
     # which are later shown on the man to tie that together
 
+    scene ghost_intervention with dissolve
+    show nvlbg at nvlbgshow
+    pause 1.0
     "We need your help."
     "Please, we beg you."
     "I'm begging you." #repeat this a bunch of times from different people for psychological effect
@@ -372,6 +377,7 @@ label start:
             "You're cruel... Not any less than your father."
             "We had hope. We put our hope in you. Our faith."
             "There's no hope in this world."
+            scene bg black with dissolve
             "You don't deserve hope either."
             g "Leave me alone! Leave!"
             g "God..."
