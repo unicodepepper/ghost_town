@@ -99,7 +99,8 @@ label start:
     g "I knew you wouldn't leave me! I knew, I knew, I knew... I'm so glad. You don't even know."
     #until you pass away... isn't this too on the nose?? ideally the
     #fact that he wants her dead should be a surprise till the end :>
-    m "I told you I would be with you until you pass away. And I'm not a person to break promises, I assure you, sunny." 
+    m "Would be very heartless of me to leave someone to die out in the cold."
+    m "You already have my word that I would protect you until the end - and I'm not a person to break promises, I assure you, sunny." 
     m "I brought you the usual necessities; food, twigs for a fire too. And... a special thing!"
     g "You... You really didn't have to!... I'm not worth the bother, you know..."
     show guy 2 with dissolve
@@ -109,7 +110,7 @@ label start:
     g "I love it."
     show bg snow closeup dark
     with dissolve
-    g "I know it's rude of me to ask, since you help me out so much, but... {w}Can you tell me... {w}How long, uhhh... {w}Until the day?"
+    g "I know it's rude of me to ask, since you help me out so much, but... {w}Can you tell me... {w}How long, uhhh... {w}Until you take me home?"
     m "My sweet child, soon enough you will know. Fret not, I have not forgotten. All my preparations are heading to the end."
     m "There's one thing itching my mind, sunny... You've never truly told me how it all happened."
     m "Or maybe you did - you know how an old man's memory can rot away..."
@@ -127,19 +128,16 @@ label start:
     show nvlbg
     with Dissolve(2.0)
     nvl clear
-    g "I'm the daughter of the richest man on the city that's past that trail."
-    g "The factories around the city are the main source of income for my father."
+    g "I'm the daughter of the richest man on the town that's past that trail."
+    g "The factories around the town are the main source of income for my father."
     g "He never told me much about them, but I think these were coal and lead mines. These need big chimneys, you know?"
-    # this part mentions that he was a safety inspector, but i feel like
-    # it should be clear at some point that the dad... killed him?
-    # intentionally. for trying to fight for better conditions for the
-    # workers
+    m "I may not have grown up here, but I'm quite familiar with those."
     m "I'm a safety inspector for the council, so my job is to make sure these rules are followed properly, for the well-being of the population."
     m "That is correct, lead mines are quite harmful. They need good ventilation so as to avoid poisoning people with the fumes."
     g "Ah, the fumes-"
     m "I apologize for my interruption, so please continue your story."
     #show girl 4 but more scared
-    g "That must be why..."
+    g "That must be why..."..
     g "You see, this town has been getting worse and worse after the factories started running."
     show bg field with dissolve
     g "The people started getting sick and dying, especially the workers."
@@ -147,7 +145,7 @@ label start:
     g "They told me about what was happening... They... They tried to warn me..."
     #her eyes get watery
     show bg mines2 with dissolve
-    m "Who tried to warn you? The workers that came out of the mines?"
+    m "Who tried to warn you? The workers that came back from the mines?"
     g "No... it was the ones who didn't make it out."
     g "I saw them every day."
     g "At home, or outside, they were always there."
@@ -244,6 +242,11 @@ label start:
     "Young lady, please look at me."
     "Please look at us."
     "Look at what your father has done to us."
+    # the man should faaaaaintly appear here as an inspector for the council
+    # not yet revealed that it's the same person as the man though
+    # but he does have some very distinctive cracked glasses because of the murder attempt
+    # which are later shown on the man to tie that together
+
     "We need your help."
     "Please, we beg you."
     "I beg you." #repeat this a bunch of times from different people for psychological effect
@@ -268,7 +271,6 @@ label start:
 
     # of course, later on she realizes how horrible that was, and
     # escapes out of guilt.
-
 
     # another idea for the bomb setup scene:
 
