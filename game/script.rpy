@@ -42,6 +42,36 @@ label hideitall: #because the scene statement sucks #actually I'm not sure if it
     hide white
     return
 
+# look at the symptoms of lead poisoning
+
+# # https://cdn.discordapp.com/attachments/354326272823787521/803647714242854942/800px-Symptoms_of_lead_poisoning_28raster29.png
+
+# hallucinations included
+# WHAT if the girl was poisoned continuously too
+# and she hallucinated the ghosts
+# that's a completely different route, but
+# maybe?
+
+# i was gonna say something like "but that means there's no revenge :("
+# but what if.
+# what if she's Aware of all the fucked up things going on around her and she hallucinates the ghosts because of that
+# and then, depending on whether she attempted a terrorist attack
+
+# she a) hallucinates a vengeful ghost
+# or b) hallucinates a comforting ghost
+# honestly
+
+# i think it'd be SO COOL to not even mention it but like
+# remember the last ending scene idea i mentioned with the newspapers?
+# just add one that goes like
+
+# "Workers affected by lead poisoning [will get pensions/are still abandoned]"
+# subtitle: "symptoms includes hallucinations, delirium and personality changes"
+# actually we could add other symptoms
+# like
+# it wouldn't be too hard to give her some insomnia or memory loss throughout the script :>
+
+
 
 # this is just a general note on the script but... throughout the whole
 # story, i feel like it should be hinted that the man wants to take her
